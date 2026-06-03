@@ -6,6 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		005314532FA36EFC00E3322A /* Home+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005314522FA36EFC00E3322A /* Home+TableView.swift */; };
+		005314562FA3783400E3322A /* BannerCVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005314552FA3783400E3322A /* BannerCVuCell.xib */; };
+		005314572FA3783400E3322A /* BannerCVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005314542FA3783400E3322A /* BannerCVuCell.swift */; };
+		0053145E2FA383C100E3322A /* CookieTypeTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053145C2FA383C100E3322A /* CookieTypeTVuCell.swift */; };
+		0053145F2FA383C100E3322A /* CookieTypeTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0053145D2FA383C100E3322A /* CookieTypeTVuCell.xib */; };
+		009D506F2FA38D6000046997 /* CookieOptionsCVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009D506D2FA38D6000046997 /* CookieOptionsCVuCell.swift */; };
+		009D50702FA38D6000046997 /* CookieOptionsCVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009D506E2FA38D6000046997 /* CookieOptionsCVuCell.xib */; };
+		00F2396C2FA359BE004872CE /* CookiesNCreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F239692FA359BE004872CE /* CookiesNCreamUITests.swift */; };
+		00F2396D2FA359BE004872CE /* CookiesNCreamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2396A2FA359BE004872CE /* CookiesNCreamUITestsLaunchTests.swift */; };
+		00F239702FA359BE004872CE /* CookiesNCreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2396E2FA359BE004872CE /* CookiesNCreamTests.swift */; };
+		00F239822FA359BE004872CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F239712FA359BE004872CE /* AppDelegate.swift */; };
+		00F239832FA359BE004872CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F239722FA359BE004872CE /* SceneDelegate.swift */; };
+		00F239852FA359BE004872CE /* CookiesNCream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00F2397E2FA359BE004872CE /* CookiesNCream.xcdatamodeld */; };
+		00F239862FA359BE004872CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F239762FA359BE004872CE /* Assets.xcassets */; };
+		00F239872FA359BE004872CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F239792FA359BE004872CE /* LaunchScreen.storyboard */; };
+		00F239882FA359BE004872CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F2397B2FA359BE004872CE /* Main.storyboard */; };
+		00F2398F2FA359F4004872CE /* CustomBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2398A2FA359F4004872CE /* CustomBorderView.swift */; };
+		00F239902FA359F4004872CE /* DiagonalDashedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2398D2FA359F4004872CE /* DiagonalDashedView.swift */; };
+		00F239912FA359F4004872CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2398B2FA359F4004872CE /* Constants.swift */; };
+		00F239922FA359F4004872CE /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2398C2FA359F4004872CE /* DesignableView.swift */; };
+		00F2399E2FA35EE8004872CE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F2399C2FA35EE8004872CE /* HomeVC.swift */; };
+		00F239A62FA366E9004872CE /* ServiceSelectionTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F239A42FA366E9004872CE /* ServiceSelectionTVuCell.swift */; };
+		00F239A72FA366E9004872CE /* ServiceSelectionTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00F239A52FA366E9004872CE /* ServiceSelectionTVuCell.xib */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		00F239442FA35930004872CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,41 +50,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005314522FA36EFC00E3322A /* Home+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+TableView.swift"; sourceTree = "<group>"; };
+		005314542FA3783400E3322A /* BannerCVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCVuCell.swift; sourceTree = "<group>"; };
+		005314552FA3783400E3322A /* BannerCVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCVuCell.xib; sourceTree = "<group>"; };
+		0053145C2FA383C100E3322A /* CookieTypeTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieTypeTVuCell.swift; sourceTree = "<group>"; };
+		0053145D2FA383C100E3322A /* CookieTypeTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CookieTypeTVuCell.xib; sourceTree = "<group>"; };
+		009D506D2FA38D6000046997 /* CookieOptionsCVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieOptionsCVuCell.swift; sourceTree = "<group>"; };
+		009D506E2FA38D6000046997 /* CookieOptionsCVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CookieOptionsCVuCell.xib; sourceTree = "<group>"; };
 		00F2392A2FA3592C004872CE /* CookiesNCream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookiesNCream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F239432FA35930004872CE /* CookiesNCreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookiesNCreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F2394D2FA35930004872CE /* CookiesNCreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookiesNCreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F239692FA359BE004872CE /* CookiesNCreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookiesNCreamUITests.swift; sourceTree = "<group>"; };
+		00F2396A2FA359BE004872CE /* CookiesNCreamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookiesNCreamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00F2396E2FA359BE004872CE /* CookiesNCreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookiesNCreamTests.swift; sourceTree = "<group>"; };
+		00F239712FA359BE004872CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00F239722FA359BE004872CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00F239762FA359BE004872CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00F239782FA359BE004872CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00F2397A2FA359BE004872CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00F2397F2FA359BE004872CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F239812FA359BE004872CE /* CookiesNCream.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CookiesNCream.xcdatamodel; sourceTree = "<group>"; };
+		00F2398A2FA359F4004872CE /* CustomBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBorderView.swift; sourceTree = "<group>"; };
+		00F2398B2FA359F4004872CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		00F2398C2FA359F4004872CE /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		00F2398D2FA359F4004872CE /* DiagonalDashedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalDashedView.swift; sourceTree = "<group>"; };
+		00F2399C2FA35EE8004872CE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		00F239A42FA366E9004872CE /* ServiceSelectionTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceSelectionTVuCell.swift; sourceTree = "<group>"; };
+		00F239A52FA366E9004872CE /* ServiceSelectionTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceSelectionTVuCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		00F239552FA35931004872CE /* Exceptions for "CookiesNCream" folder in "CookiesNCream" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 00F239292FA3592C004872CE /* CookiesNCream */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		00F2392C2FA3592C004872CE /* CookiesNCream */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				00F239552FA35931004872CE /* Exceptions for "CookiesNCream" folder in "CookiesNCream" target */,
-			);
-			path = CookiesNCream;
-			sourceTree = "<group>";
-		};
-		00F239462FA35930004872CE /* CookiesNCreamTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CookiesNCreamTests;
-			sourceTree = "<group>";
-		};
-		00F239502FA35930004872CE /* CookiesNCreamUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CookiesNCreamUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		00F239272FA3592C004872CE /* Frameworks */ = {
@@ -88,9 +107,9 @@
 		00F239212FA3592C004872CE = {
 			isa = PBXGroup;
 			children = (
-				00F2392C2FA3592C004872CE /* CookiesNCream */,
-				00F239462FA35930004872CE /* CookiesNCreamTests */,
-				00F239502FA35930004872CE /* CookiesNCreamUITests */,
+				00F239802FA359BE004872CE /* CookiesNCream */,
+				00F2396F2FA359BE004872CE /* CookiesNCreamTests */,
+				00F2396B2FA359BE004872CE /* CookiesNCreamUITests */,
 				00F2392B2FA3592C004872CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +122,131 @@
 				00F2394D2FA35930004872CE /* CookiesNCreamUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		00F2396B2FA359BE004872CE /* CookiesNCreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00F239692FA359BE004872CE /* CookiesNCreamUITests.swift */,
+				00F2396A2FA359BE004872CE /* CookiesNCreamUITestsLaunchTests.swift */,
+			);
+			path = CookiesNCreamUITests;
+			sourceTree = "<group>";
+		};
+		00F2396F2FA359BE004872CE /* CookiesNCreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				00F2396E2FA359BE004872CE /* CookiesNCreamTests.swift */,
+			);
+			path = CookiesNCreamTests;
+			sourceTree = "<group>";
+		};
+		00F239732FA359BE004872CE /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				00F239712FA359BE004872CE /* AppDelegate.swift */,
+				00F239722FA359BE004872CE /* SceneDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		00F239752FA359BE004872CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00F2399D2FA35EE8004872CE /* Home */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		00F239772FA359BE004872CE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				00F239762FA359BE004872CE /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		00F2397C2FA359BE004872CE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				00F239792FA359BE004872CE /* LaunchScreen.storyboard */,
+				00F2397B2FA359BE004872CE /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		00F2397D2FA359BE004872CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00F239772FA359BE004872CE /* Assets */,
+				00F2397C2FA359BE004872CE /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00F239802FA359BE004872CE /* CookiesNCream */ = {
+			isa = PBXGroup;
+			children = (
+				00F2398E2FA359F4004872CE /* Globals */,
+				00F239732FA359BE004872CE /* App Delegates */,
+				00F2397D2FA359BE004872CE /* Views */,
+				00F239752FA359BE004872CE /* Controllers */,
+				00F2397E2FA359BE004872CE /* CookiesNCream.xcdatamodeld */,
+				00F2397F2FA359BE004872CE /* Info.plist */,
+			);
+			path = CookiesNCream;
+			sourceTree = "<group>";
+		};
+		00F2398E2FA359F4004872CE /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				00F2398A2FA359F4004872CE /* CustomBorderView.swift */,
+				00F2398B2FA359F4004872CE /* Constants.swift */,
+				00F2398C2FA359F4004872CE /* DesignableView.swift */,
+				00F2398D2FA359F4004872CE /* DiagonalDashedView.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		00F239992FA35EE8004872CE /* Collection Cells */ = {
+			isa = PBXGroup;
+			children = (
+				005314542FA3783400E3322A /* BannerCVuCell.swift */,
+				005314552FA3783400E3322A /* BannerCVuCell.xib */,
+				009D506D2FA38D6000046997 /* CookieOptionsCVuCell.swift */,
+				009D506E2FA38D6000046997 /* CookieOptionsCVuCell.xib */,
+			);
+			path = "Collection Cells";
+			sourceTree = "<group>";
+		};
+		00F2399A2FA35EE8004872CE /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00F239A42FA366E9004872CE /* ServiceSelectionTVuCell.swift */,
+				00F239A52FA366E9004872CE /* ServiceSelectionTVuCell.xib */,
+				0053145C2FA383C100E3322A /* CookieTypeTVuCell.swift */,
+				0053145D2FA383C100E3322A /* CookieTypeTVuCell.xib */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		00F2399B2FA35EE8004872CE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00F239992FA35EE8004872CE /* Collection Cells */,
+				00F2399A2FA35EE8004872CE /* Table Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		00F2399D2FA35EE8004872CE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				00F2399B2FA35EE8004872CE /* Cells */,
+				00F2399C2FA35EE8004872CE /* HomeVC.swift */,
+				005314522FA36EFC00E3322A /* Home+TableView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +263,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				00F2392C2FA3592C004872CE /* CookiesNCream */,
 			);
 			name = CookiesNCream;
 			packageProductDependencies = (
@@ -143,9 +284,6 @@
 			dependencies = (
 				00F239452FA35930004872CE /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				00F239462FA35930004872CE /* CookiesNCreamTests */,
-			);
 			name = CookiesNCreamTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +303,6 @@
 			);
 			dependencies = (
 				00F2394F2FA35930004872CE /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				00F239502FA35930004872CE /* CookiesNCreamUITests */,
 			);
 			name = CookiesNCreamUITests;
 			packageProductDependencies = (
@@ -225,6 +360,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F239862FA359BE004872CE /* Assets.xcassets in Resources */,
+				009D50702FA38D6000046997 /* CookieOptionsCVuCell.xib in Resources */,
+				0053145F2FA383C100E3322A /* CookieTypeTVuCell.xib in Resources */,
+				00F239872FA359BE004872CE /* LaunchScreen.storyboard in Resources */,
+				005314562FA3783400E3322A /* BannerCVuCell.xib in Resources */,
+				00F239A72FA366E9004872CE /* ServiceSelectionTVuCell.xib in Resources */,
+				00F239882FA359BE004872CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +391,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005314532FA36EFC00E3322A /* Home+TableView.swift in Sources */,
+				00F239A62FA366E9004872CE /* ServiceSelectionTVuCell.swift in Sources */,
+				00F239822FA359BE004872CE /* AppDelegate.swift in Sources */,
+				00F2399E2FA35EE8004872CE /* HomeVC.swift in Sources */,
+				00F2398F2FA359F4004872CE /* CustomBorderView.swift in Sources */,
+				00F239902FA359F4004872CE /* DiagonalDashedView.swift in Sources */,
+				005314572FA3783400E3322A /* BannerCVuCell.swift in Sources */,
+				009D506F2FA38D6000046997 /* CookieOptionsCVuCell.swift in Sources */,
+				00F239912FA359F4004872CE /* Constants.swift in Sources */,
+				00F239922FA359F4004872CE /* DesignableView.swift in Sources */,
+				0053145E2FA383C100E3322A /* CookieTypeTVuCell.swift in Sources */,
+				00F239832FA359BE004872CE /* SceneDelegate.swift in Sources */,
+				00F239852FA359BE004872CE /* CookiesNCream.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F239702FA359BE004872CE /* CookiesNCreamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +419,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F2396C2FA359BE004872CE /* CookiesNCreamUITests.swift in Sources */,
+				00F2396D2FA359BE004872CE /* CookiesNCreamUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +439,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		00F239792FA359BE004872CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F239782FA359BE004872CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00F2397B2FA359BE004872CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F2397A2FA359BE004872CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		00F239572FA35931004872CE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -291,11 +468,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CookiesNCream/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CookiesNCream;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +481,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.CookiesNCream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,11 +500,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CookiesNCream/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CookiesNCream;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +513,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.CookiesNCream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -563,6 +750,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00F2397E2FA359BE004872CE /* CookiesNCream.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00F239812FA359BE004872CE /* CookiesNCream.xcdatamodel */,
+			);
+			currentVersion = 00F239812FA359BE004872CE /* CookiesNCream.xcdatamodel */;
+			path = CookiesNCream.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 00F239222FA3592C004872CE /* Project object */;
 }
